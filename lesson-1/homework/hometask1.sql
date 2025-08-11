@@ -1,7 +1,7 @@
 CREATE DATABASE READBOOKSDB; -- database yaratish
 
 USE READBOOKSDB; -- foydalanishi 
-CREATE TABLE Books  (  
+CREATE TABLE Books /* table yaratish */ (  
     Books_Id INT ,
     Name VARCHAR(30) ,
     Author VARCHAR(30),
