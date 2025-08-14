@@ -63,3 +63,6 @@ INSERT INTO Students (Name, Age, Major)
 VALUES ('Mark', 20, 'History'),
 ('Karl', 21, 'Mathematics'),
 ('Tony', 22, 'Physics');
+
+--Task 9. 
+/*Telegramdan  AdventureWorks2020.bak   ustiga sichqonchani ung tugmasini bosamiz keyin bizdan qayerga saqlashimizni suraydi   C diskga kiramiz  papkalar ichidan promram filesga kiramiz  va u yerdan Microsoft SQL Serverga kiramiz  keyin   MSSQL16.MSSQLSERVER papkasiga kiramiz keyin MSSQLGA  kiramiz va u yerdan Backupga kirganimizda  ekranda kichik bildirishnoma chiqadi  “You don’t currently have permission to acces this folder”  kurinishida va otida continue va cancel  tugmasi turadi continueni bosamiz  va undan kn pasda ung tarafda save tugmasini bosamiz va faylimiz saqlanadi backup papkamizga. SQL Servar Management studioga utamiz   chap tarafda database dgan yozuv ustiga sichqonchani oborib ung tugmasini bosamiz  va bosganimizdan kn ung yana bir menyu chiqadi u yerdan restore database sichqoncani oborib chap tarafini bossak menyu ochiladi.  Sourse qismidan deviceni tanlaymiz kn … ni utiga bosammiz keyin add ni bosamiz va telegramdan saqlagan fayilimizni ustiga bosib  ok tugmasini bosamiz va undan keyin  pastda turgan ok tugmasini bosamiz jarayon muvaffaqiyatli yakunlansa   database AdventureWorks2022 restored successfully deb chiqadi. */
