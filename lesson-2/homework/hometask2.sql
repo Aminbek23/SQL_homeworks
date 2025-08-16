@@ -101,6 +101,8 @@ from Products;
 exec sp_rename 'Products', 'Inventory';
 
 --task 24
+ALTER TABLE Inventory
+DROP CONSTRAINT price;
 alter table Inventory
 alter column  price float;
 
