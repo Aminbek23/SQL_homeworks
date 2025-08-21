@@ -1,12 +1,12 @@
 --task 1
-select top 5 *  from employees
+select top 5 *  from Employees
 
 --task 2
 select distinct Category from  Products
 
 --task 3
 select * from Products
-where price >100
+where Price >100
 
 --task 4
  select * from Products
@@ -18,7 +18,7 @@ where price >100
  
  --task 6
  select* from Employees
- where  salary > 60000 and dep_name ='HR'
+ where  salary > 60000 and DepartmentName ='HR'
 
  --task 7
 alter table Employees
@@ -68,7 +68,7 @@ select distinct category, price from Products
  where DepartamentName in ('HR', 'IT', 'Finance')
 
  --task 19
- select*from customers 
+ select*from Customers 
  order by City asc, PostalCode desc
 
  --task 20
@@ -81,11 +81,11 @@ select distinct category, price from Products
  
  --task 22
  select distinct Category, ProductName, Price  from Products
- where price > 50
+ where Price > 50
 
  --task 23
  select*from Products
- where price < 0.1*(select(avg(price) from Products)
+ where Price < 0.1*(select(avg(Price) from Products)
 
  --task 24
  select* from Employees 
@@ -93,11 +93,11 @@ select distinct category, price from Products
 
  --task 25
  select*from Customers
- where email like '%@hmail.com'
+ where Email like '%@hmail.com'
 
  --task 26
  select * from Employees
- where salary> all(select salary from Employees where DepartamentName ='Sales'
+ where Salary> all(select Salary from Employees where DepartamentName ='Sales'
 
  --task 27
  select * from Orders
