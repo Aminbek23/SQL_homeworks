@@ -1,4 +1,3 @@
-
 --task 1 
 select*from #RegionSales as rs 
 
